@@ -808,7 +808,7 @@ ActionListener, MouseListener, MouseMotionListener{
         /**
          * 
          * @param movesFile
-         * @return
+         * @return an array with moves in it
          */
         public int[][] loadMovesFile(String movesFile) {                
                 int[][] moves = new int[MAP_ROW_NUMBER][MAP_COL_NUMBER*3];
@@ -908,7 +908,7 @@ ActionListener, MouseListener, MouseMotionListener{
          * @param carY
          * @param w
          * @param h
-         * @return
+         * @return 
          */
         public boolean checkPos(int mouseX, int mouseY, 
                         int carX, int carY, int w, int h) {
